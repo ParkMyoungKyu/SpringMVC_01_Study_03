@@ -30,7 +30,7 @@ public class ItemRepository {
         Item findItem = findById(itemId);
         findItem.setItemName(updateParam.getItemName());
         findItem.setPrice(updateParam.getPrice());
-        findItem.setQuantitiy(updateParam.getQuantitiy());
+        findItem.setQuantity(updateParam.getQuantity());
     }
 
     public void clearStore(){
